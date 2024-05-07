@@ -10,7 +10,7 @@
     "generate": "nuxt generate .playground",
     "preview": "nuxt preview .playground",
     "lint": "eslint .",
-    "postinstall": "nuxt prepare .playground"
+    "pre:dev": "nuxt prepare .playground"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
@@ -21,6 +21,8 @@
   "dependencies": {
     "@arco-design/web-vue": "^2.55.1",
     "@iconify-json/icon-park-outline": "^1.1.15",
+    "@nuxt/image": "^1.7.0",
+    "@prisma/client": "^5.13.0",
     "@types/lodash-es": "^4.17.12",
     "@types/nprogress": "^0.2.3",
     "@types/numeral": "^2.0.5",
@@ -34,6 +36,7 @@
     "lodash-es": "^4.17.21",
     "nprogress": "^0.2.0",
     "numeral": "^2.0.6",
+    "prisma": "^5.13.0",
     "swagger-typescript-api": "^13.0.3",
     "tsx": "^4.9.1",
     "unocss": "^0.59.4"
