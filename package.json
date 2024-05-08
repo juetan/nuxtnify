@@ -30,7 +30,6 @@
     "@vueuse/core": "^10.9.0",
     "arco-design-nuxt-module": "^0.1.0",
     "arconify": "^0.0.2",
-    "axios": "^1.6.8",
     "dayjs": "^1.11.11",
     "less": "^4.2.0",
     "lodash-es": "^4.17.21",
