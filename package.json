@@ -32,6 +32,7 @@
     "arco-design-nuxt-module": "^0.1.0",
     "arconify": "^0.0.2",
     "dayjs": "^1.11.11",
+    "i18next": "^23.11.3",
     "less": "^4.2.0",
     "lodash-es": "^4.17.21",
     "nprogress": "^0.2.0",
@@ -39,7 +40,57 @@
     "prisma": "^5.13.0",
     "swagger-typescript-api": "^13.0.3",
     "tsx": "^4.9.1",
-    "unocss": "^0.59.4"
+    "unocss": "^0.59.4",
+    "vite-plugin-inspect": "^0.8.4",
+    "zod": "^3.23.8",
+    "zod-i18n-map": "^2.27.0"
+  },
+  "changelog": {
+    "types": {
+      "feat": {
+        "title": "🚀 功能",
+        "semver": "minor"
+      },
+      "perf": {
+        "title": "🔥 性能",
+        "semver": "patch"
+      },
+      "fix": {
+        "title": "🩹 修复",
+        "semver": "patch"
+      },
+      "refactor": {
+        "title": "💅 重构",
+        "semver": "patch"
+      },
+      "docs": {
+        "title": "📖 文档",
+        "semver": "patch"
+      },
+      "build": {
+        "title": "📦 构建",
+        "semver": "patch"
+      },
+      "types": {
+        "title": "🌊 类型",
+        "semver": "patch"
+      },
+      "chore": {
+        "title": "🏡 其他"
+      },
+      "examples": {
+        "title": "🏀 示例"
+      },
+      "test": {
+        "title": "✅ 测试"
+      },
+      "style": {
+        "title": "🎨 样式"
+      },
+      "ci": {
+        "title": "🤖 构建"
+      }
+    }
   },
   "packageManager": "pnpm@9.1.0+sha512.67f5879916a9293e5cf059c23853d571beaf4f753c707f40cb22bed5fb1578c6aad3b6c4107ccb3ba0b35be003eb621a16471ac836c87beb53f9d54bb4612724"
 }

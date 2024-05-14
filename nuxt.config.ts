@@ -11,5 +11,5 @@ export default defineNuxtConfig({
   arco: {
     icons: false,
   },
-  modules: ["@unocss/nuxt", "arco-design-nuxt-module"],
+  modules: ["@unocss/nuxt", "arco-design-nuxt-module"] as any,
 });
